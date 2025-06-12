@@ -1,3 +1,5 @@
+"use client"; // Ensure this runs on the client side
+
 // import { BoxRevealHero } from "@/components/BoxRevealHero";
 import { DomainDock } from "@/components/DomainDock";
 import DomainMobile from "@/components/DomainMobile";
@@ -31,6 +33,7 @@ export default function Home() {
         <h1 className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b  bg-clip-text text-center md:text-7xl lg:text-9xl text-5xl font-black font-fira_sans leading-none text-transparent from-white to-slate-900/10 pb-12 ">
           Explore more
         </h1>
+        {/* Button to log referrer */}
         <RevealLinks />
       </div>
     </>
